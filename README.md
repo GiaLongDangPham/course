@@ -16,14 +16,14 @@
 #### 👥 User Management UI
 Manage users with full CRUD operations, search, validation and paging.
 Client-side validation, search by name, and sortable columns.
-![User Management](src/main/resources/templates/assets/all_users.png)
+![User Management](Coursera_BE/src/main/resources/templates/assets/all_users.png)
 
 #### 📝 Course Interface
 View and manage courses from users.
 Filter and search courses.
-![Course Management](src/main/resources/templates/assets/all_courses.png)
+![Course Management](Coursera_BE/src/main/resources/templates/assets/all_courses.png)
 
 #### 📝 Course Interface
 View and manage trending courses. 
-![Course Management](src/main/resources/templates/assets/hot-trend-courses.png)
+![Course Management](Coursera_BE/src/main/resources/templates/assets/hot-trend-courses.png)
 
