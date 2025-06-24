@@ -1,0 +1,17 @@
+server:
+  port: 8080  # Port ứng dụng chạy
+
+spring:
+  datasource:
+    url: jdbc:sqlserver://localhost:1433;databaseName=coursera;encrypt=true;trustServerCertificate=true
+    username: gialong
+    password: 123456
+    driver-class-name: com.microsoft.sqlserver.jdbc.SQLServerDriver
+    hikari:
+      connection-timeout: 20000
+      maximum-pool-size: 10
+  jpa:
+    database-platform: org.hibernate.dialect.SQLServer2012Dialect
+    show-sql: true
+    hibernate:
+      ddl-auto: none
